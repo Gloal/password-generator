@@ -6,9 +6,6 @@
 This week’s challenge required the creation of a password generator tool with the following criteria:
 
 ## Instructions
-
-The following image shows the web application's appearance and functionality:
-
 * Generate a password when the button is clicked
   * Present a series of prompts for password criteria
     * Length of password
@@ -27,4 +24,4 @@ The user is asked for password length using a prompt
 The user is then asked for the character choices using a series of confirm requests
 The password is randomly generated to the specified choices and displayed in an alert
 
-[An image of the final functionality](./assets/Screenshot%202023-11-24%20201631.png)
+[A screenshot of the functionality](./assets/Screenshot%202023-11-24%20201631.png)
