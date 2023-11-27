@@ -119,8 +119,9 @@ function getPasswordOptions() {
       if (isNaN(validLength)) {
         alert("You must enter an actual number between 8 and 128 inclusive");
       } else if (validLength > 128 || validLength < 8) {
-        alert("You must enter a valid number between 8 and 128 inclusive");
+        alert("Your password length must be between 8 and 128 inclusive");
       } else {
+        passLength = parseInt(passLength);
         isNotValidLength = false;
       }
     }
